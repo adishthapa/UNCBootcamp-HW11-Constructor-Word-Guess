@@ -1,0 +1,22 @@
+{
+  "name": "uncbootcamp-hw11-constructor-word-guess",
+  "version": "1.0.0",
+  "description": "UNCBootcamp-HW11-Constructor-Word-Guess",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adishthapa/UNCBootcamp-HW11-Constructor-Word-Guess.git"
+  },
+  "author": "adishthapa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adishthapa/UNCBootcamp-HW11-Constructor-Word-Guess/issues"
+  },
+  "homepage": "https://github.com/adishthapa/UNCBootcamp-HW11-Constructor-Word-Guess#readme",
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  }
+}

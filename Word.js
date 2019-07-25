@@ -2,24 +2,29 @@ var Letter = require("./Letter.js");
 
 function Word(word) {
     this.word = [],
+    this.totalGuessed = 0,
     this.createWord = function() {
         for (var i = 0; i < word.length; i++) {
+            if (word[i] === " ") {
+                this.totalGuessed++;
+            }
             var letter = new Letter(word[i]);
             this.word.push(letter);
         };
     },
-    this.returnWord = function() {
+    this.toString = function() {
         var s = "";
-        for (var i = 0; i < word.length; i++) {
-            s += this.word[i].display() + " ";
-        };
+        s = this.word.join(" ");
         return s;
     },
     this.updateWord = function(char) {
         for (var i = 0; i < this.word.length; i++) {
-            this.word[i].updateGuessed(char);
+            var guess = this.word[i].updateGuessed(char);
+            if (guess) {
+                this.totalGuessed++;
+            };
         };
     };
 };
 
-module.export = Word;
+module.exports = Word;
