@@ -1,5 +1,7 @@
+// Required packages/files
 var Letter = require("./Letter.js");
 
+// Constructor for the Word Object
 function Word(word) {
     this.word = [],
     this.totalGuessed = 0,
@@ -30,4 +32,5 @@ function Word(word) {
     };
 };
 
+// Exports Word
 module.exports = Word;

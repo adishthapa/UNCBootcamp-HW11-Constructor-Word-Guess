@@ -1,3 +1,4 @@
+// Constructor for the Letter Object
 function Letter(letter) {
     this.letter = letter,
     this.guessed = false,
@@ -20,4 +21,5 @@ function Letter(letter) {
     };
 };
 
+// Exports Letter
 module.exports = Letter;
