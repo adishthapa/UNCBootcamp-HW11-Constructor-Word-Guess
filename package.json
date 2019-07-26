@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/adishthapa/UNCBootcamp-HW11-Constructor-Word-Guess#readme",
   "dependencies": {
+    "chalk": "^2.4.2",
     "inquirer": "^6.5.0"
   }
 }

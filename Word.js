@@ -18,12 +18,15 @@ function Word(word) {
         return s;
     },
     this.updateWord = function(char) {
+        var status = false;
         for (var i = 0; i < this.word.length; i++) {
             var guess = this.word[i].updateGuessed(char);
             if (guess) {
                 this.totalGuessed++;
+                status = true;
             };
         };
+        return status;
     };
 };
 
