@@ -1,5 +1,4 @@
-# UNCBootcamp-HW11-Constructor-Word-Guess
-UNCBootcamp-HW11-Constructor-Word-Guess
+# Constructor Word Guess
 
 Constructor Word Guess is a simple command line node application that functions as a Movie themed Hangman Game. The purpose of the Game is to figure out all 15 of the Movies in the Game. You have 7 chances per Movie to guess it correctly. If you fail to guess it within 7 tries, you will have the option to restart the game with randomized Movie order.
 
